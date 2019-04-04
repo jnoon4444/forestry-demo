@@ -13,11 +13,12 @@ fields:
   label: Block
   type: blocks
   template_types:
-    - name: title
-      label: Title
-      type: text
-    - name: image
-      label: Image
-      type: file
+    - template: hero-section
+      title: Hello
+      subtitle: World
+    - template: call-to-action
+      heading: Get Started
+      button_url: https://forestry.io/signup
+      button_text: Sign up for Forestry
 pages:
 - index.md
